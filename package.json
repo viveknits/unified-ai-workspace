@@ -1,0 +1,14 @@
+{
+  "name": "unified-ai-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Single interface for routing tasks across multiple LLM providers with a shared, token-aware context store.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node --env-file=.env src/cli.js",
+    "demo": "node src/cli.js"
+  }
+}
